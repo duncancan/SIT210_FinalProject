@@ -9,9 +9,11 @@ I recommend you view the source files for the Arduino program and the Raspberry 
 
 ## Usage
 ### Arduino
-Configure your Arduino hardware setup per the `TODO filename` circuit diagram and upload the Arduino program to your board.
+Configure your Arduino hardware setup per the **SIT210 Final Project Circuit Diagram - Arduino.png** circuit diagram and upload the Arduino program to your board.
 
 ### Raspberry Pi server
+As above, configure your Raspberry Pi hardware setup per the **SIT210 Final Project Circuit Diagram - Raspberry Pi.png** circuit diagram - this one's a lot simpler, just a temperature sensor and a resistor! Once you've done that, copy the server Python program to the RPi.
+
 The server program utilises a few libraries that are not available via `apt` on Raspberry Pi. Because RPi's Python install is externally managed, to utilise these libraries you will need to create a virtual environment (*venv*) in which your server runs. Below are instructions for creating this environment and installing the necessary packages.
 
 I used the contraction "SMArt Living Room Air Conditioner ('SMALRAC')" for my system during development, so I used this naming convention for my venv:
